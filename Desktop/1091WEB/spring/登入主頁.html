@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+ 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' >
+    <script src='main.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="spring.css">
+   <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <style>
+    *{
+    padding:0;
+    margin:0;
+}
+html,body{
+  
+    /* font-family: "微軟正黑體";
+    display:flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.con{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 150px;
+    grid-gap: 1em;
+}
+.box{
+    border:1px solid#000;
+}
+.box1{
+    background-image:url('money.jpg');
+    background-size: cover;
+}
+.box2{
+    background-image:url('b.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.box3{
+    background-image:url('in.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.box4{
+    background-image:url('d.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.box5{
+    background-image:url('c.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.box6{
+    background-image:url('a.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.box7{
+    background-image:url('p.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.box8{
+    background-image:url('z.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+
+.filter{
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,.6);
+
+    display:none;
+    justify-content: center;
+    align-items: center;
+}
+.filter p{
+    color: #fff;
+    border:1px solid #fff;
+
+    padding:10px;
+    transition:all 0.4s ease-in;
+}
+.box:hover .filter{
+    display:flex;
+}
+.filter p:hover{
+    background-color: #fff;
+    color:#000;
+}
+@media screen and (max-width:800px){
+    html,body{
+        align-items: flex-start;
+    }
+    .container{
+        grid-template-columns: repeat(2,1fr);
+        margin:50px 0;
+    }
+}
+@media screen and (max-width:600px){
+    .container{
+        grid-template-columns:1fr;
+    }
+}
+  </style>
+
+  </head>
+  <script type="text/javascript">
+  function toggle2(){
+    $("#menu").slideToggle();
+  }
+  </script>
+  <body>
+    <!--導覽列-->
+	  <nav class="navbar navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container d-flex align-items-stretch">
+	    		<div class="col-3 d-flex align-items-center">
+			      <a class="navbar-brand" href="index.html">FU<span>JEN</span></a>
+			    </div>
+                <button class="navbar-toggler d-flex align-items-center" type="button" onclick="toggle2();" id="fade_in">
+                <span class="pt-1 mr-1">Menu</span> <span class="oi oi-menu"></span>
+                </button>
+        </div>
+    <!--伸縮菜單-->
+        <div class="menu_container"  id="menu">
+            <div class="menu-box">
+                <div class="menu">
+                    <div class="order">
+                        <li>home</li>
+                        <li>contributor</li>
+                        <li>reviewer</li>
+                        <li>manager</li>
+                        <li>customer</li>
+                        <li>contact</li>
+                        <li>about</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </nav>
+    <!-- END nav -->
+    <!--首頁主體-->
+    <div class="hero-wrap js-fullheight" style="background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(https://www.officelovin.com/wp-content/uploads/2019/06/hortonworks-office-budapest-m3.jpg); opacity: .9;" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <!--首頁文字及按鈕-->
+        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
+          <div class="col-md-10 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+          	<h1 class="mb-0">fu jen management review</h1>
+            <!-- <div class="start">get start</div> -->
+            <div class="classify">
+                <!-- <div class="identify">/contributor/</div> -->
+                <div class="identify">/LOGIN/</div>
+                <!-- <div class="identify">/manager/</div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <section class="ftco-section">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-12 text-center heading-section ftco-animate">
+            <h2 class="mb-2"><span class="px-4">Spring Church Services</span></h2>
+            <span class="subheading">Church Services</span>
+          </div>
+        </div>
+    		<div class="row">
+    			<div class="col-lg-6">
+    				<div class="d-flex services ftco-animate text-lg-right">
+	            <div class="icon order-lg-last d-flex align-items-center justify-content-center"><span class="flaticon-praying"></span></div>
+	            <div class="media-body pr-lg-5">
+	              <h3 class="heading mb-3">Daily Prayers</h3>
+	              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+	            </div>
+	          </div>
+	          <div class="d-flex services ftco-animate text-lg-right">
+	            <div class="icon order-lg-last d-flex align-items-center justify-content-center"><span class="flaticon-church"></span></div>
+	            <div class="media-body pr-lg-5">
+	              <h3 class="heading mb-3">Church Community</h3>
+	              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+	            </div>
+	          </div>
+	          <div class="d-flex services ftco-animate text-lg-right">
+	            <div class="icon order-lg-last d-flex align-items-center justify-content-center"><span class="flaticon-bible"></span></div>
+	            <div class="media-body pr-lg-5">
+	              <h3 class="heading mb-3">Teaching</h3>
+	              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+	            </div>
+	          </div>
+    			</div>
+
+    			<div class="col-lg-6">
+    				<div class="d-flex services ftco-animate text-lg-left">
+	            <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-social-care"></span></div>
+	            <div class="media-body pl-lg-5">
+	              <h3 class="heading mb-3">Helpers</h3>
+	              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+	            </div>
+	          </div>
+	          <div class="d-flex services ftco-animate text-lg-left">
+	            <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-rings"></span></div>
+	            <div class="media-body pl-lg-5">
+	              <h3 class="heading mb-3">Wedding</h3>
+	              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+	            </div>
+	          </div>
+	          <div class="d-flex services ftco-animate text-lg-left">
+	            <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-promotion"></span></div>
+	            <div class="media-body pl-lg-5">
+	              <h3 class="heading mb-3">Events</h3>
+	              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+	            </div>
+	          </div>
+    			</div>
+    		</div>
+    	</div>
+    </section> -->
+
+    <!-- <section class="ftco-section bg-light">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-12 text-center heading-section heading-section-light ftco-animate">
+            <h2 class="mb-2"><span class="px-4">Sermon for Today</span></h2>
+            <span class="subheading">Experience God's Presence</span>
+          </div>
+        </div>
+    		<div class="row d-flex sermon-wrap">
+  				<div class="col-md-6 d-flex align-items-stretch ftco-animate">
+  					<div class="img" style="background-image: url(images/sermon-1.jpg);"></div>
+  				</div>
+  				<div class="col-md-6 py-4 text ftco-animate">
+  					<h2 class="mb-4"><a href="sermon.html">Lord is Sufficient for all of our needs</a></h2>
+  					<div class="meta">
+  						<p>
+	  						<span>Sermon from: <a href="#" class="ptr">Felix Gonner</a></span>
+	  						<span>Categories: <a href="#">God</a>, <a href="#">Pray</a></span>
+	  						<span><a href="#">On Sunday 13 Jan, 2019</a></span>
+  						</p>
+  					</div>
+						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+						<p class="mt-4 btn-customize">
+							<a href="https://vimeo.com/45830194" class="btn btn-primary px-4 py-3 mr-md-2 popup-vimeo"><span class="icon-play"></span> Watch Sermons</a> <a href="#" class="btn btn-black px-4 py-3 ml-lg-2"><span class="icon-download"></span> Download Sermons</a>
+						</p>
+  				</div>
+    		</div>
+    	</div>
+    </section> -->
+
+   	
+    <section class="ftco-counter" id="section-counter">
+    	<div class="container">
+    		<div class="row d-flex">
+    			<div class="col-md-6 px-5 py-5">
+    				<div class="row justify-content-start pt-3 pb-3">
+		          <div class="col-md-12 heading-section heading-section-no-line ftco-animate" style="text-align: center;">
+		            <h2 class="mb-4">數據統計</h2>
+		          </div>
+		        </div>
+		    		<div class="row">
+		          <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center py-4 bg-light mb-4">
+		              <div class="text">
+		                <strong class="number" data-number="130">0</strong>
+		                <span>累積刊物數</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center py-4 bg-light mb-4">
+		              <div class="text">
+		                <strong class="number" data-number="350">0</strong>
+		                <span>累積投稿數</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center py-4 bg-light mb-4">
+		              <div class="text">
+		                <strong class="number" data-number="120">0</strong>
+		                <span>審核中件數</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center py-4 bg-light mb-4">
+		              <div class="text">
+		                <strong class="number" data-number="100">0</strong>
+		                <span>待審核件數</span>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+	        </div>
+        </div>
+    	</div>
+    </section>
+
+
+    <!-- <section class="ftco-section testimony-section" style="background-image: url(images/bg_3.jpg);">
+    	<div class="overlay"></div>
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+            <h2 class="mb-2">Inspirational Testimony</h2>
+          </div>
+        </div>
+        <div class="row ftco-animate">
+          <div class="col-md-12">
+            <div class="carousel-testimony owl-carousel ftco-owl">
+              <div class="item">
+                <div class="testimony-wrap text-center py-4 pb-5">
+                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text p-3">
+                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p class="name">Arthur Browner</p>
+                    <span class="position">Member</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap text-center py-4 pb-5">
+                  <div class="user-img mb-4" style="background-image: url(images/person_2.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text p-3">
+                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p class="name">Arthur Browner</p>
+                    <span class="position">Member</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap text-center py-4 pb-5">
+                  <div class="user-img mb-4" style="background-image: url(images/person_3.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text p-3">
+                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p class="name">Arthur Browner</p>
+                    <span class="position">Member</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap text-center py-4 pb-5">
+                  <div class="user-img mb-4" style="background-image: url(images/person_4.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text p-3">
+                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p class="name">Arthur Browner</p>
+                    <span class="position">Member</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap text-center py-4 pb-5">
+                  <div class="user-img mb-4" style="background-image: url(images/person_3.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text p-3">
+                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p class="name">Arthur Browner</p>
+                    <span class="position">Member</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- <section class="ftco-section ftco-no-pt ftco-no-pb">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-lg-8 py-5">
+    				<div class="heading-section heading-section-no-line ftco-animate mb-5">
+	            <h2 class="mb-2">Upcoming Events</h2>
+	            <span class="subheading">Experience God's Presence</span>
+	          </div>
+	          <div class="event-wrap d-md-flex ftco-animate">
+	          	<div class="img"style="background-image: url(images/sermon-1.jpg);"></div>
+	          	<div class="text pl-md-5">
+	          		<h2 class="mb-3"><a href="sermons.html">Know Jesus Christ Better Through Lines</a></h2>
+	          		<div class="meta">
+		  						<p>
+			  						<span><i class="icon-calendar mr-2"></i> Monday, 8:00 Am - Tuesday, 8:00 Pm</span>
+			  						<span><i class="icon-my_location mr-2"></i> <a href="#">Spring Church</a></span>
+			  						<span><i class="icon-location_city mr-2"></i> 203 Fake St. Mountain View, San Francisco, California, USA</span>
+		  						</p>
+		  					</div>
+		  					<p><a href="sermons.html" class="btn btn-primary">Read more</a></p>
+	          	</div>
+	          </div>
+	          <div class="event-wrap d-md-flex ftco-animate">
+	          	<div class="img"style="background-image: url(images/sermon-2.jpg);"></div>
+	          	<div class="text pl-md-5">
+	          		<h2 class="mb-3"><a href="sermons.html">Know Jesus Christ Better Through Lines</a></h2>
+	          		<div class="meta">
+		  						<p>
+			  						<span><i class="icon-calendar mr-2"></i> Monday, 8:00 Am - Tuesday, 8:00 Pm</span>
+			  						<span><i class="icon-my_location mr-2"></i> <a href="#">Spring Church</a></span>
+			  						<span><i class="icon-location_city mr-2"></i> 203 Fake St. Mountain View, San Francisco, California, USA</span>
+		  						</p>
+		  					</div>
+		  					<p><a href="sermons.html" class="btn btn-primary">Read more</a></p>
+	          	</div>
+	          </div>
+
+    			</div>
+    			<div class="col-lg-4 d-flex align-items-stretch">
+    				<div class="subsermon p-5">
+    					<h2 class="heading mb-5 ftco-animate">Recent Sermons</h2>
+    					<div class="sermon-wrap mb-4 ftco-animate">
+	    					<a href="sermons.html" class="img mb-3" style="background-image: url(images/event-1.jpg);"></a>
+	    					<div class="text">
+	    						<h2 class="mb-4"><a href="sermon.html">Lord is Sufficient for all of our needs</a></h2>
+			  					<div class="meta">
+			  						<p>
+				  						<span>Sermon from: <a href="#" class="ptr">Felix Gonner</a></span>
+				  						<span>Categories: <a href="#">God</a>, <a href="#">Pray</a></span>
+				  						<span><a href="#">On Sunday 13 Jan, 2019</a></span>
+			  						</p>
+			  					</div>
+									<p class="mt-4">
+										<a href="https://vimeo.com/45830194" class="btn-custom  p-2 text-center popup-vimeo"><span class="icon-play"></span> Watch Sermons</a>
+									</p>
+									<p class="mt-4">
+										<a href="#" class="btn-custom  p-2 text-center"><span class="icon-download"></span> Download Sermons</a>
+									</p>
+	    					</div>
+    					</div>
+    					<a href="sermons.html" class="sermon-wrap sermon-wrap-2 d-flex align-items-start py-3 ftco-animate">
+    						<div class="icon">
+	    						<span class="icon-play"></span>
+    						</div>
+    						<div class="desc">
+	    						<h3>Fruit of the Spirit</h3>
+	    						<span class="time">20:30 mins</span>
+    						</div>
+    					</a>
+    					<a href="sermons.html" class="sermon-wrap sermon-wrap-2 d-flex align-items-start py-3 ftco-animate">
+    						<div class="icon">
+	    						<span class="icon-play"></span>
+    						</div>
+    						<div class="desc">
+	    						<h3>Fruit of the Spirit</h3>
+	    						<span class="time">20:30 mins</span>
+    						</div>
+    					</a>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section> -->
+
+    <!-- <section class="ftco-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-12 text-center heading-section heading-section-light ftco-animate">
+            <h2 class="mb-2"><span class="px-4">Recent Blog</span></h2>
+            <span class="subheading">Our Blog</span>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-lg-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+              </a>
+              <div class="text d-flex float-right d-block">
+              	<div class="topper text-center pt-4 px-3">
+            			<span class="day">18</span>
+            			<span class="mos">January</span>
+            			<span class="yr">2019</span>
+              	</div>
+              	<div class="desc p-4">
+	                <h3 class="heading mt-2"><a href="#">All you want to know about Bible</a></h3>
+	                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+              </a>
+              <div class="text d-flex float-right d-block">
+              	<div class="topper text-center pt-4 px-3">
+            			<span class="day">15</span>
+            			<span class="mos">January</span>
+            			<span class="yr">2019</span>
+              	</div>
+              	<div class="desc p-4">
+	                <h3 class="heading mt-2"><a href="#">All you want to know about Bible</a></h3>
+	                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex ftco-animate">
+          	<div class="blog-entry">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+              </a>
+              <div class="text d-flex float-right d-block">
+              	<div class="topper text-center pt-4 px-3">
+            			<span class="day">14</span>
+            			<span class="mos">January</span>
+            			<span class="yr">2019</span>
+              	</div>
+              	<div class="desc p-4">
+	                <h3 class="heading mt-2"><a href="#">All you want to know about Bible</a></h3>
+	                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- <section class="ftco-section ftco-section-parallax bg-secondary ftco-no-pb">
+      <div class="parallax-img d-flex align-items-center">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-7 text-center heading-section heading-section-white heading-section-no-line ftco-animate">
+              <h2>Newsletter</h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+              <div class="row d-flex justify-content-center mt-4 mb-4">
+                <div class="col-md-8">
+                  <form action="#" class="subscribe-form">
+                    <div class="form-group d-flex">
+                      <input type="text" class="form-control" placeholder="Enter email address">
+                      <input type="submit" value="Subscribe" class="submit px-3">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section class="ftco-section bg-light">
+    <div class="con">
+      <div class="box box1">
+      <div class="filter">
+          <p><a href="https://zh.wikipedia.org/wiki/财务管理"></a>財務管理</p>
+      </div>
+  </div>
+      <div class="box box2">
+          <div class="filter">
+              <p>創新設計</p>
+          </div>
+      </div>
+      <div class="box box3">
+          <div class="filter">
+              <p>資訊管理</p>
+          </div>
+      </div>
+      <div class="box box4">
+          <div class="filter">
+              <p>微型創業</p>
+          </div>
+      </div>
+      <div class="box box5">
+          <div class="filter">
+              <p>企業應用</p>
+          </div>
+      </div>
+      <div class="box box6">
+          <div class="filter">
+              <p>企業管理</p>
+          </div>
+      </div>
+      <div class="box box7">
+          <div class="filter">
+              <p>生產與作業管理</p>
+          </div>
+      </div>
+      <div class="box box8">
+          <div class="filter">
+              <p>會計</p>
+          </div>
+      </div>
+  </div>
+</section>
+    <footer class="ftco-footer ftco-bg-dark ftco-section" face="微軟正黑體" >
+      <div class="footer_top">
+        <!-- <div class="footerleft"> -->
+          <div class="footermiddle" style="display: flex; justify-content: space-around;align-items: center;"> 
+            <div style="width: 40vw;height: 100%;border-right: 3px solid white; padding-left: 5em;">
+            <strong><p font family="Arial" style="font-size: larger;color: white;" >CONTACT US</p></strong> 
+              <p style="font-size:medium; color:white; text-transform: uppercase;">Click the link !<br>Or send email to me!</p>
+          
+              <i class="fas fa-mobile-alt"></i>&nbsp;&nbsp;<a href="tel:2144443545" style="color: white;"> 0909123456</a><br>
+              <i class="fas fa-envelope"></i> &nbsp;&nbsp;<a href="abc@gmail.com" style="color: white;">abc@gmail.com</a><br>
+              <i class="fas fa-link"></i>&nbsp;&nbsp;<i class="fab fa-facebook-square"></i>&nbsp;&nbsp;<i class="fab fa-twitter-square"></i>&nbsp;&nbsp;<i class="fab fa-youtube"></i>
+            <!-- </div> -->
+          </div>
+          <div style="width: 45vw;height: 100%; display: flex; align-items: center; flex-wrap: wrap;justify-content: center;">
+            <div style="color: white; width: 60%; text-transform: uppercase;letter-spacing: 1px; text-indent: 1px;">Enter your email:</div>
+            <input style="width: 60%; border-radius: 5px; border: 0;" type="text" id="name" name="name"  data-error="Please enter your email">
+         
+            <div style="color: white; width: 60%; text-transform: uppercase;letter-spacing: 1px; text-indent: 1px;">Enter your text:</div>
+            <textarea style="width: 60%;border: 0px; border-radius: 5px;"  id="message"  rows="3" data-error="Write your message" required></textarea><br>
+            <!-- <button class="btn btn-common" id="submit" type="submit" style="color: blue; background-color:white ;position:relative; left:220px; top: 0px; " > Send</button> -->
+          </div>
+    
+      
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>

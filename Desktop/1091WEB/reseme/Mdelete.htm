@@ -1,0 +1,180 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>管理者/稿件管理/刪除稿件</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css>
+    <style>
+    table{
+        font-size: 15px;
+        border: 0px;
+        border-radius: 8px;
+    }
+    td{
+        /* height: 7vh;
+        line-height: 7vh; */
+    }
+    .form-check{
+        display: flex;
+        justify-content: start;
+    }
+    th{
+        letter-spacing: 2px;
+        text-indent: 2px;
+        height: 6vh;
+        line-height: 6vh;
+    }
+    </style>
+</head>
+<body style="display: flex; align-items: center; ">
+  <!-- <div style="width:100%; margin-left:2.5%;">
+	  <div class="table-responsive" style="margin-top:2%;">
+		  <table class="table table-striped">
+              <h5 style="font:20px 微軟正黑體; caption-side:top; color: white; letter-spacing: 10px; text-indent: 10px; font-size: 30px; text-align: center;">未完成配稿之清單</h5>
+              <hr width=100% style="margin: 2em 0; color: tan;">
+              <thead class="thead-light" style="background-color:burlywood;">
+                <tr>
+                  <th scope="col">標題</th>
+                  <th scope="col">投稿者</th>
+                  <th scope="col">投稿日期</th>
+                  <th scope="col">選取欲刪除之稿件</th>
+                </tr>
+              </thead>
+              <tbody style="background-color:white;">
+                <tr>
+                    <td>整合獨立成份分析與分類迴歸樹</td>
+                    <td>林依依</td>
+                    <td>2020/05/04</td>
+                    <td>
+                        <div class="form-check">
+                            <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>商業生態系統中利基者策略之變遷</td>
+                    <td>陳浩浩</td>
+                    <td>2020/05/01</td>
+                    <td>
+                        <div class="form-check">
+                            <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>會計穩健性在證券發行決策所扮演的角色</td>
+                    <td>黃大東</td>
+                    <td>2020/04/23</td>
+                    <td>
+                        <div class="form-check">
+                            <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>國際市場機會與品牌建構之研究</td>
+                    <td>林小莉</td>
+                    <td>2020/04/20</td>
+                    <td>
+                        <div class="form-check">
+                            <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>國際移轉計價決策制定型態影響因素之研究</td>
+                    <td>黃曉苡</td>
+                    <td>2020/04/19</td>
+                    <td>
+                        <div class="form-check">
+                            <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                      <td colspan="3"></td>
+                      <td align="right"><input type="submit" value="確認刪除"></td>
+                </tr>
+              </tbody>
+          </table>
+	 </div>
+    </div> -->
+    <div class="upload_container" >
+        <div style="width:95%; margin-left:2.5%; margin-left: 9vw;">
+            <div class="table-responsive" style="margin-top:2%;">
+            <h5 style="text-align:center; color: white;letter-spacing: 10px; text-indent: 10px;font-size: 30px;">投稿稿件清單</h5>
+            <hr width=100% size=30 color=tan style="margin: 2em 0;height: 0.5px;background-color: tan">
+                <table class="table table-hover ">
+                    <thead style="background-color:tan;">
+                      <tr> 
+                        <th scope="col">標題</th>
+                        <th scope="col">投稿者</th>
+                        <th scope="col">投稿日期</th>
+                        <th scope="col">刪除稿件</th>
+                      </tr>
+                    </thead>
+                    <tbody style="background-color:white;">
+                      <tr>
+                        <td>整合獨立成份分析與分類迴歸樹</td>
+                        <td>林依依</td>
+                        <td>2020/05/04</td>
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>商業生態系統中利基者策略之變遷</td>
+                        <td>陳浩浩</td>
+                        <td>2020/05/01</td>
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>會計穩健性在證券發行決策所扮演的角色</td>
+                        <td>黃大東</td>
+                        <td>2020/04/23</td>
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>國際市場機會與品牌建構之研究</td>
+                        <td>林小莉</td>
+                        <td>2020/04/20</td>
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>國際移轉計價決策制定型態影響因素之研究</td>
+                        <td>黃曉苡</td>
+                        <td>2020/04/19</td>
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="3"></td>
+                        <td align="right"><input type="submit" value="確認刪除" style="background: rgb(158, 135, 105);border: 0;border-radius: 3px;color: white;"></td>
+                    </tr>
+                    </tbody>
+                </table>
+           </div>
+          </div>
+    </div>
+</body>
